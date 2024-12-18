@@ -1,1 +1,1 @@
-# gemini_api
+# gemini-api-integration
