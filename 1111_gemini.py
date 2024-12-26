@@ -7,7 +7,7 @@ from datetime import datetime
 class myGpt:
     def __init__(self):
         # Google Generative AI API 설정
-        self.key = 'AIzaSyDQihTxag9rH0nu9Ej9N006FaYeBSei1B4'
+        self.key = 'XYZ'
         genai.configure(api_key=self.key)
         self.model = genai.GenerativeModel('gemini-1.5-flash')
         self.chat_session = self.model.start_chat(history=[])  # 히스토리 기능 활성화
